@@ -7,7 +7,7 @@ function ReduceSystem:CreateInstance()
 
         Clientloader = {
             Event = "reduce_clientloader(%s)",
-            Convar = "大ᖇEᗪᑌᑕE_ᑕᒪIEᑎTᒪOᗩᗪEᖇ(%s:%s)大",
+            Convar = "大ᖇEᗪᑌᑕE_ᑕᒪIEᑎTᒪOᗩᗪEᖇ(%s:%s)大", -- Change this Convar to something else!
 
             Files = {},
             Players = {},
