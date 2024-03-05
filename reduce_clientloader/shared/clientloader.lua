@@ -297,3 +297,5 @@ if Instance.GetResourceFilesNum() > 0 then
         exports = Instance.ResourceExports
     end
 end
+
+-- dont skid this :)
