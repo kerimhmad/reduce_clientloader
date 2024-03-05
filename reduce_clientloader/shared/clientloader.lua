@@ -42,7 +42,7 @@ function ReduceSystem:Encrypt(data, key)
     local result = ""
 
     for i=1, #data do
-        result = result .. string.char(string.byte(data:sub(i, i)) ~ key)
+        result = result .. string.char((string.byte(data:sub(i, i)) ~ key) & 255)
     end
 
     return result
